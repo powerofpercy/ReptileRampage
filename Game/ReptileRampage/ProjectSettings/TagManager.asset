@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Wall
+  - Pickup
+  - Explosive
+  - DestructibleWall
+  - Crate
+  - BossFight1
+  - BossFight2
+  - BossFight3
+  - BossFight
+  - GavinCollider
+  - MuzzelFlash
+  - Gate
+  - DialogTrigger
+  - Dialog1
+  - Dialog2
+  - Dialog3
+  - Dialog4
+  - Dialog5
+  - Dialog6
+  - Dialog7
+  - Dialog8
+  - Dialog0
+  - BossCollider
+  - Bridge
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PlayerProjectile
+  - Enemy
+  - EnemyProjectile
+  - Player
+  - Gavin
+  - Flying
+  - Rex Rocket
+  - Gavin Laser
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 2998203101
+    locked: 0

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{5030D61B-AA2A-594E-3DFA-C37D6FD2DCC9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_IL2CPP;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Beautify\Scripts\Beautify.cs" />
+     <Compile Include="Assets\Scripts\AStarPathfind\AStarGrid.cs" />
+     <Compile Include="Assets\Scripts\AStarPathfind\AStarPathfinder.cs" />
+     <Compile Include="Assets\Scripts\AdvancedPolygonCollider\AdvancedPolygonCollider.cs" />
+     <Compile Include="Assets\Scripts\AdvancedPolygonCollider\AdvancedPolygonColliderUtilities.cs" />
+     <Compile Include="Assets\Scripts\AmmoPack.cs" />
+     <Compile Include="Assets\Scripts\Ankylosaurus.cs" />
+     <Compile Include="Assets\Scripts\Arena\EnemySpawner.cs" />
+     <Compile Include="Assets\Scripts\Arena\WaveMaster.cs" />
+     <Compile Include="Assets\Scripts\Boss Fights\TRexFight.cs" />
+     <Compile Include="Assets\Scripts\Boss Fights\TrikeFight.cs" />
+     <Compile Include="Assets\Scripts\BossDeath.cs" />
+     <Compile Include="Assets\Scripts\Bullet.cs" />
+     <Compile Include="Assets\Scripts\BulletHoming.cs" />
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\CameraShake.cs" />
+     <Compile Include="Assets\Scripts\Crate.cs" />
+     <Compile Include="Assets\Scripts\DestroyAfterAnimationEnd.cs" />
+     <Compile Include="Assets\Scripts\DestructibleWall.cs" />
+     <Compile Include="Assets\Scripts\DisableDialog.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\EnemyBulletCollider.cs" />
+     <Compile Include="Assets\Scripts\Explosion.cs" />
+     <Compile Include="Assets\Scripts\ExplosiveBarrel.cs" />
+     <Compile Include="Assets\Scripts\GameMaster.cs" />
+     <Compile Include="Assets\Scripts\Gate.cs" />
+     <Compile Include="Assets\Scripts\Gavin.cs" />
+     <Compile Include="Assets\Scripts\Grenade.cs" />
+     <Compile Include="Assets\Scripts\GrenadePickup.cs" />
+     <Compile Include="Assets\Scripts\HealthPack.cs" />
+     <Compile Include="Assets\Scripts\HeliMovement.cs" />
+     <Compile Include="Assets\Scripts\Laser.cs" />
+     <Compile Include="Assets\Scripts\LowerBodyAnim.cs" />
+     <Compile Include="Assets\Scripts\MusicPlayer.cs" />
+     <Compile Include="Assets\Scripts\Persistent.cs" />
+     <Compile Include="Assets\Scripts\PickupPrefab.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\Pteradactyl.cs" />
+     <Compile Include="Assets\Scripts\SliderValueUpdate.cs" />
+     <Compile Include="Assets\Scripts\SlidingDoor.cs" />
+     <Compile Include="Assets\Scripts\StegoTurret.cs" />
+     <Compile Include="Assets\Scripts\Stegosaurus.cs" />
+     <Compile Include="Assets\Scripts\TRex.cs" />
+     <Compile Include="Assets\Scripts\Trike.cs" />
+     <Compile Include="Assets\Scripts\UI\GameOverManager.cs" />
+     <Compile Include="Assets\Scripts\UI\HUDManager.cs" />
+     <Compile Include="Assets\Scripts\UI\PauseMenuManager.cs" />
+     <Compile Include="Assets\Scripts\UI\PickUpLog.cs" />
+     <Compile Include="Assets\Scripts\UI\PlayDialog.cs" />
+     <Compile Include="Assets\Scripts\UI\TextBoxManager.cs" />
+     <Compile Include="Assets\Scripts\UI\TitleCameraMove.cs" />
+     <Compile Include="Assets\Scripts\UI\TitleScreenManager.cs" />
+     <Compile Include="Assets\Scripts\UI\UIRaptorAI.cs" />
+     <Compile Include="Assets\Scripts\UpperBodyAnim.cs" />
+     <Compile Include="Assets\Scripts\Utility.cs" />
+     <Compile Include="Assets\Scripts\Velociraptor.cs" />
+     <Compile Include="Assets\Scripts\WayPoints.cs" />
+     <Compile Include="Assets\Scripts\Weapon.cs" />
+     <Compile Include="Assets\Scripts\WinScreenCursor.cs" />
+     <Compile Include="Assets\Scripts\YLayering.cs" />
+     <Compile Include="Assets\Scripts\killparticles.cs" />
+     <None Include="Assets\Beautify\Resources\Textures\README Textures.txt" />
+     <None Include="Assets\Beautify\Resources\Shaders\CopyDepth.shader" />
+     <None Include="Assets\Text\Dialog0.txt" />
+     <None Include="Assets\Beautify\Resources\Shaders\BeautifyEA.cginc" />
+     <None Include="Assets\Text\Dialog5.txt" />
+     <None Include="Assets\Text\Dialog7.txt" />
+     <None Include="Assets\Text\Dialog10.txt" />
+     <None Include="Assets\Beautify\Resources\Shaders\BeautifyLum.cginc" />
+     <None Include="Assets\Beautify\Resources\Shaders\BeautifyDoF.cginc" />
+     <None Include="Assets\Beautify\Resources\Shaders\BeautifyMobile.shader" />
+     <None Include="Assets\Text\Dialog6.txt" />
+     <None Include="Assets\Text\Dialog3.txt" />
+     <None Include="Assets\Beautify\Resources\Shaders\BeautifyMobile.cginc" />
+     <None Include="Assets\Text\Dialog8.txt" />
+     <None Include="Assets\Text\Dialog9.txt" />
+     <None Include="Assets\Text\Dialog2.txt" />
+     <None Include="Assets\Text\Dialog4.txt" />
+     <None Include="Assets\Beautify\Resources\Shaders\Beautify.shader" />
+     <None Include="Assets\Beautify\Resources\Shaders\Beautify.cginc" />
+     <None Include="Assets\Text\Dialog1.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

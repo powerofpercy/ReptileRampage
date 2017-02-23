@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{5043DF0D-BA2F-E26A-7064-DE187FDCF010}") = "ReptileRampage", "Assembly-CSharp.csproj", "{5030D61B-AA2A-594E-3DFA-C37D6FD2DCC9}"
+EndProject
+Project("{5043DF0D-BA2F-E26A-7064-DE187FDCF010}") = "ReptileRampage", "Assembly-CSharp-Editor.csproj", "{B987AD03-5271-5EE6-F42B-A841CF073809}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5030D61B-AA2A-594E-3DFA-C37D6FD2DCC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5030D61B-AA2A-594E-3DFA-C37D6FD2DCC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5030D61B-AA2A-594E-3DFA-C37D6FD2DCC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5030D61B-AA2A-594E-3DFA-C37D6FD2DCC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B987AD03-5271-5EE6-F42B-A841CF073809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B987AD03-5271-5EE6-F42B-A841CF073809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B987AD03-5271-5EE6-F42B-A841CF073809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B987AD03-5271-5EE6-F42B-A841CF073809}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
